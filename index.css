@@ -1,0 +1,15 @@
+header {background: #004175;
+        padding-left: 30px;
+        width: 600px;
+        border-bottom: 3px solid #89DEEF;
+        color: #FFFFFF;
+        font-family: "Open Sans";
+        font-size: 36px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin: 0 auto;
+        }
+
+body {background: #d3d3d3}
