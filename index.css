@@ -12,4 +12,10 @@ header {background: #004175;
         margin: 0 auto;
         }
 
-body {background: #d3d3d3}
+body {background: #d3d3d3;
+    margin-top: 0; 
+        }
+.container {background: #ffffff;
+    margin: 0 auto;
+    width: 600px;
+    ;}
