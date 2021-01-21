@@ -1,6 +1,6 @@
 header {background: #004175;
         padding-left: 30px;
-        width: 600px;
+        width: 75%;
         border-bottom: 3px solid #89DEEF;
         color: #FFFFFF;
         font-family: "Open Sans";
@@ -13,9 +13,36 @@ header {background: #004175;
         }
 
 body {background: #d3d3d3;
-    margin-top: 0; 
-        }
-.container {background: #ffffff;
+      margin-top: 0; }
+
+.parent-container {background: #ffffff;
     margin: 0 auto;
-    width: 600px;
-    ;}
+    width: 77%;
+    display: flex;
+    justify-content: space-around;
+     } 
+
+.container-one {font-family: "Open Sans";
+         display: column;
+         justify-content: flex-start;
+         }
+
+h1 {
+    font-size: 24px;}
+
+p {
+    font-size: 16px;
+}
+
+.dog-container {display: grid; 
+    grid-template-columns: 200px 200px 200px;    
+    grid-template-rows: 200px 200px 200px; 
+    align-items: flex-start;                
+    flex-wrap: wrap;                     
+    justify-content: flex-start;}
+
+.cell {justify-content: space-around;}
+    
+
+img {width: 250px;
+    height: auto;}
