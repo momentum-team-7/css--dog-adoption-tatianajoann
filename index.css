@@ -36,8 +36,8 @@ p {
 }
 
 .dog-container {display: grid; 
-    grid-template-columns: 275px 275px 300px;    
-    grid-template-rows: 300px 300px 300px; 
+    grid-template-columns: 300px 300px 300px;    
+    grid-template-rows: 400px 400px 400px; 
                    
     flex-wrap: wrap;                     
     justify-content: baseline;}
@@ -46,7 +46,21 @@ h2 {font-family: "Oswald";
     font-size: 18px;
     margin-top: 0;}
 
-.cell {justify-content: space-around;}
+.cell {justify-content: space-around;
+    display: flex-start;
+    }
+
+li {font-family: "Open Sans";
+    font-size: 12px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    background: #89DEEF;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    
+    }
+ul {padding: 0px;}
     
 
 img {width: 250px;
